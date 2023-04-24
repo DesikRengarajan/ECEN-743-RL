@@ -7,7 +7,7 @@ Code tested using
 - pytorch   2.0.0
 - Python    3.9.12
 
-1 & 2 can be installed using 
+gymnasium and box2d can be installed using 
 ```
 pip install gymnasium[box2d]
 ```
