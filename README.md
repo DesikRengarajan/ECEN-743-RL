@@ -11,3 +11,7 @@ Code tested using
 ```
 pip install gymnasium[box2d]
 ```
+
+### Additional Resources
+- Environment description [Gymnasium](https://gymnasium.farama.org/)
+- PyTorch installation help [PyTorch](https://pytorch.org/get-started/locally/)
