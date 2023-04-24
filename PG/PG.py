@@ -265,14 +265,14 @@ class PGAgent():
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
-	parser.add_argument("--env", default="LunarLander-v2")			 # Gymnasium environment name
+	parser.add_argument("--env", default="LunarLander-v2")		 # Gymnasium environment name
 	parser.add_argument("--seed", default=0, type=int)               # Sets Gym, PyTorch and Numpy seeds
 	parser.add_argument("--n-iter", default=200, type=int)           # Maximum number of training iterations
 	parser.add_argument("--discount", default=0.99)                  # Discount factor
 	parser.add_argument("--batch-size", default=5000, type=int)      # Training samples in each batch of training
 	parser.add_argument("--lr", default=5e-3,type=float)             # Learning rate
-	parser.add_argument("--gpu-index", default=0,type=int)		     # GPU index
-	parser.add_argument("--algo", default="Baseline",type=str)		 # PG algorithm type. Baseline/Gt/Rt
+	parser.add_argument("--gpu-index", default=0,type=int)		 # GPU index
+	parser.add_argument("--algo", default="Baseline",type=str)       # PG algorithm type. Baseline/Gt/Rt
 	args = parser.parse_args()
 
 	# Making the environment	
