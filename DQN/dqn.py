@@ -201,7 +201,7 @@ if __name__ == "__main__":
 	parser.add_argument("--tau", default=0.001)                     # soft update of target network
 	parser.add_argument("--max-size", default=int(1e5),type=int)    # experience replay buffer length
 	parser.add_argument("--update-freq", default=4, type=int)       # update frequency of target network
-	parser.add_argument("--gpu-index", default=0,type=int)		    # GPU index
+	parser.add_argument("--gpu-index", default=0,type=int)		# GPU index
 	parser.add_argument("--max-esp-len", default=1000, type=int)    # maximum time of an episode
 	#exploration strategy
 	parser.add_argument("--epsilon-start", default=1)               # start value of epsilon
